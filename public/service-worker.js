@@ -1,21 +1,21 @@
 const CACHE_NAME = 'budget-tracker'
 const DATA_CACHE_NAME = "budget-tacker-v2"
 
+
 const FILES_TO_CACHE = [
-    '/',
     '/index.html',
-    '/assets/css/styles.css',
-    '/assets/js/index.js',
-    '/assets/js/idb.js',
+    '/css/styles.css',
+    '/js/idb.js',
+    '/js/index.js',
     '/manifest.json',
-    '/assets/icons/icon-512x512.png',
-    '/assets/icons/icon-384x384.png',
-    '/assets/icons/icon-192x192.png',
-    '/assets/icons/icon-152x152.png',
-    '/assets/icons/icon-144x144.png',
-    '/assets/icons/icon-128x128.png',
-    '/assets/icons/icon-96x96.png',
-    '/assets/icons/icon-72x72.png'
+    '/icons/icon-72x72.png',
+    '/icons/icon-96x96.png',
+    '/icons/icon-128x128.png',
+    '/icons/icon-144x144.png',
+    '/icons/icon-152x152.png',
+    '/icons/icon-192x192.png',
+    '/icons/icon-384x384.png',
+    '/icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', function (evt) {
